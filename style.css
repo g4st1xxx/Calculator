@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'segment7standard';
+    src:
+    url('fonts/Segment7-4Gml.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+/* Rectangle 1 */
+position: relative; 
+box-sizing: border-box;
+
+margin-top: 50px;
+
+width: 480px;
+height: 550px;
+
+
+background: linear-gradient(0deg, rgba(126, 126, 126, 0.2), rgba(126, 126, 126, 0.2)), linear-gradient(180deg, #454359 13.02%, rgba(69, 67, 89, 0.736527) 60.42%, rgba(69, 67, 89, 0.377955) 99.99%, rgba(69, 67, 89, 0) 100%, rgba(69, 67, 89, 0) 100%);
+border-width: 0px 10px 20px 10px;
+border-style: solid;
+border-color: #434054;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 30px 30px;
+display: flex;
+flex-direction: column;
+
+}
+.marca{
+    /* CAZIO */
+
+
+width: 142px;
+height: 63px;
+left: 464px;
+top: 171px;
+
+font-family: 'Jua';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+/* identical to box height */
+
+color: #E6E6E6;
+
+
+}
+
+.solarBattery{
+    /* Rectangle 3 */
+
+width: 150px;
+height: 56px;
+left: 768px;
+top: 171px;
+
+background: #190907;
+border-radius: 5px;
+
+}
+.marcasolarcont{
+    display: flex;
+    justify-content: space-between;
+}
+.displayContainer{
+    padding: 10px 50px 0px 50px;
+
+}
+
+.display{
+/* Rectangle 2 */
+
+height: 100px;
+background: #CEDEDE;
+border-width: 6px 2px 3px 4px;
+border-style: solid;
+border-color: #000000;
+border-radius: 5px;
+position: relative;
+}
+.display p{
+    font-size: 56px;
+    font-family: 'sans-seriff'; 
+    margin: 0px;
+    text-align: right;
+}
+.inputs{
+    padding: 30px 50px 10px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-top: 10px;
+    height: auto;
+    flex-grow: 1
+}
+
+.inputs button{
+
+    height: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none;
+    
+}
+
+
+.numberInput{
+    /* Rectangle 4 */
+
+box-sizing: border-box;
+
+background: #25242A;
+border-bottom: 2px solid #D9D9D9 !important;
+border-radius: 5px 5px 10px 10px;
+
+}
+.operatorInput{
+    background-color: rgb(240, 120, 120);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.operatorInput:hover{
+    background-color: rgb(199, 101, 101);
+}
+.operatorInput:active              {
+    background-color: rgb(142, 75, 75);
+}
