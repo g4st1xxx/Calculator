@@ -6,6 +6,12 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'DIGIT';
+    src: url('fonts/ds_digital/DS-DIGI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     display: flex;
@@ -74,6 +80,24 @@ border-radius: 5px;
 
 }
 
+#displayValue{
+    font-family: 'DIGIT';
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    padding: 5px; 
+  
+}
+#displayFormerCalculation{
+    font-family: 'DIGIT';
+    font-size: 2em;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    padding: 5px; 
+  
+}
+
 .display{
 /* Rectangle 2 */
 
@@ -89,7 +113,6 @@ position: relative;
     font-size: 56px;
     font-family: 'sans-seriff'; 
     margin: 0px;
-    text-align: right;
 }
 .inputs{
     padding: 30px 50px 10px 50px;
